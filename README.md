@@ -1,3 +1,3 @@
 # nomad Update
 
-HAHA I LIKE THIS
+HTML AND CSS SO FUNNY
