@@ -1,7 +1,11 @@
 .user-component {
   display: flex;
-  padding: 10px;
 }
+
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -19,5 +23,17 @@
 }
 .user-component__subtitle {
   margin-top: 7px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.user-component__title--sm {
+  font-weight: 400;
+}
+.user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
 }
