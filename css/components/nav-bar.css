@@ -12,3 +12,21 @@
   display: flex;
   justify-content: space-between;
 }
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+.nav__notif {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
